@@ -16,7 +16,6 @@ class Bootstrap {
         } else {
             $this->action = $this->request['action'];
         }
-        echo $this->controller . ' and ' .$this->action;
     }
 
     public function createController() {
